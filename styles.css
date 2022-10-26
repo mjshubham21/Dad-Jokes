@@ -1,0 +1,60 @@
+/*Glass effects from https://css.glass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e5f7;
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #444cf7, #e5e5f7),
+    repeating-radial-gradient(
+      circle at center center,
+      #0611e6,
+      #4e56e8,
+      10px,
+      transparent 20px,
+      transparent 10px
+    );
+}
+
+h1 {
+  font-family: "Fuzzy Bubbles", cursive;
+  font-size: 8vh;
+  color: rgb(251, 199, 135);
+}
+
+.container {
+  display: flex;
+  margin: 3rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fuzzy Bubbles", cursive;
+  background: rgba(49, 45, 45, 0.47);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(49, 45, 45, 0.29);
+}
+
+#btn {
+  margin: 2rem 0;
+  width: 20vw;
+  height: 7vh;
+  color: aliceblue;
+  font-family: "Fuzzy Bubbles", cursive;
+  border-radius: 7rem;
+  background: rgba(30, 5, 247, 0.16);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.9px);
+  -webkit-backdrop-filter: blur(4.9px);
+  border: 1px solid rgba(30, 5, 247, 0.29);
+}
+
+#content {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #c0f405;
+}
